@@ -12,3 +12,7 @@ variable "region" {
 variable "name" {
   default = "TestAPI"
 }
+variable "path_part" {
+  description = "The last path segment of this API resource"
+  default = "test1"
+}
